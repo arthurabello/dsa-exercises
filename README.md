@@ -26,13 +26,13 @@ brew install gcc
 Os arquivos de código-fonte estão organizados por aula dentro das respectivas pastas. Para compilar um arquivo `.cpp`, utilize o seguinte comando no terminal:
 
 ```sh
-g++ -o nome_do_executavel caminho_para_o_arquivo.c
+g++ -o nome_do_executavel caminho_para_o_arquivo.cpp
 ```
 
-Por exemplo, para compilar o arquivo `exercicio_1.cpp` dentro da pasta `aula_3`, execute:
+Por exemplo, para compilar o arquivo [`exercicio_1.cpp`](exercicio_1.cpp) dentro da pasta `aula_3`, execute:
 
 ```sh
-g++ -o aula_3/exercicio_1 aula_3/exercicio1.c
+g++ -o aula_3/exercicio_1 aula_3/exercicio1.cpp
 ```
 
 Para rodar o programa após a compilação:
