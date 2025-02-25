@@ -1,3 +1,7 @@
+//  Escreva uma função que receba um array de inteiros
+//  e o tamanho do array, e retorne a soma de todos
+//  os elementos do array.
+
 #include <iostream>
 using namespace std;
 

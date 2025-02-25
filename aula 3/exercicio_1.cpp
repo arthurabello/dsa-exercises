@@ -1,3 +1,6 @@
+//  Escreva uma função que receba um número inteiro
+//  e imprima se ele é positivo, negativo ou zero.
+
 #include <iostream>
 using namespace std;
 

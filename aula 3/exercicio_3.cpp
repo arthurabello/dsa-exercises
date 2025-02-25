@@ -1,3 +1,7 @@
+//  Escreva uma função que receba um número inteiro
+//  e retorne true se o número for primo e
+//  false caso contrário.
+
 #include <iostream>
 using namespace std;
 #include <cmath>
