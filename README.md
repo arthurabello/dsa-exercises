@@ -29,7 +29,7 @@ Os arquivos de código-fonte estão organizados por aula dentro das respectivas 
 g++ -o nome_do_executavel caminho_para_o_arquivo.cpp
 ```
 
-Por exemplo, para compilar o arquivo [`exercicio_1.cpp`](exercicio_1.cpp) dentro da pasta `aula_3`, execute:
+Por exemplo, para compilar o arquivo [`exercicio_1.cpp`](https://github.com/arthurabello/eda-exercicios/blob/main/aula%203/exercicio_1.cpp) dentro da pasta `aula_3`, execute:
 
 ```sh
 g++ -o aula_3/exercicio_1 aula_3/exercicio_1.cpp
