@@ -1,6 +1,6 @@
-//  Escreva uma função que receba um array de inteiros
-//  e o tamanho do array, e retorne a soma de todos
-//  os elementos do array.
+//  Write a function that receives an array of integers
+//  and the size of the array, and returns the sum of all
+//  the elements in the array.
 
 #include <iostream>
 using namespace std;

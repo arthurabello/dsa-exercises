@@ -1,6 +1,6 @@
-//  Escreva uma função que receba um número inteiro
-//  e retorne true se o número for primo e
-//  false caso contrário.
+//  Write a function that receives an integer
+//  and returns true if the number is prime and
+//  false otherwise.
 
 #include <iostream>
 using namespace std;
