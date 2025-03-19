@@ -1,13 +1,13 @@
-all: conversor_de_temperaturas
+all: temperature_converter
 
-conversor_de_temperaturas: main.o conversao.o
-		g++ main.o conversao.o -o conversor_de_temperaturas
+temperature_converter: main.o conversion.o
+		g++ main.o conversion.o -o temperature_converter
 
-main.o: main.cpp conversao.cpp
+main.o: main.cpp conversion.cpp
 		g++ -c main.cpp -o main.o
 
-conversao.o: conversao.cpp conversao.h
-		g++ -c conversao.cpp -o conversao.o
+conversion.o: conversion.cpp conversion.h
+		g++ -c conversion.cpp -o conversion.o
 
-clean:
-		rm -rf *.o conversor_de_temperaturas
+clear:
+		rm -rf *.o temperature_converter

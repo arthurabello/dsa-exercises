@@ -1,10 +1,10 @@
-# eda-exercicios
+# dsa-exercises
 
-Repositório com as soluções dos exercícios propostos em aula, do curso de [Estruturas de Dados e Algoritmos](https://github.com/matwerner/fgv-ed) da FGV/EMAp.
+Repository with solutions to the exercises proposed in class for the course [Estruturas de Dados e Algoritmos](https://github.com/matwerner/fgv-ed) at FGV/EMAp during the semester 2025.1
 
-## Requisitos
+## Requirements
 
-Para compilar e rodar os códigos deste repositório, você precisará do compilador `gcc` instalado em seu sistema. Caso não tenha, siga as instruções abaixo para instalá-lo:
+To compile and run the code in this repository, you will need the `gcc` compiler installed on your system. If you don’t have it, follow the instructions below to install it:
 
 ### Linux (Ubuntu/Debian)
 ```sh
@@ -12,36 +12,35 @@ sudo apt update
 sudo apt install gcc
 ```
 
-### macOS (usando Homebrew)
+### macOS (using Homebrew)
 ```sh
 brew install gcc
 ```
 
-### Windows 
-1. Desinstale seu sistema operacional (imediatamente)
-2. Instale um com kernel Linux
+### Windows  
+1. Uninstall your operating system (immediately)  
+2. Install one with a Linux kernel  
 
-## Como Compilar e Executar os Exercícios
+## How to Compile and Run the Exercises
 
-Os arquivos de código-fonte estão organizados por aula dentro das respectivas pastas. Para compilar um arquivo `.cpp`, utilize o seguinte comando no terminal:
-
-```sh
-g++ -o nome_do_executavel caminho_para_o_arquivo.cpp
-```
-
-Por exemplo, para compilar o arquivo [`exercicio_1.cpp`](https://github.com/arthurabello/eda-exercicios/blob/main/aula%203/exercicio_1.cpp) dentro da pasta `aula_3`, execute:
+The source code files are organized by class within their respective folders. To compile a `.cpp` file, use the following command in the terminal:
 
 ```sh
-g++ -o aula_3/exercicio_1 aula_3/exercicio_1.cpp
+g++ -o executable_name path_to_file.cpp
 ```
 
-Para rodar o programa após a compilação:
+For example, to compile the file [`exercise_1.cpp`](https://github.com/arthurabello/eda-exercicios/blob/main/Introduction%20to%20C%2B%2B/lecture%203/exercise_1.cpp) inside the `lecture 3` folder, run:
 
 ```sh
-./aula_3/exercicio1
+g++ -o lecture_3/exercise_1 Introduction\ to\ C++/lecture\ 3/exercise_1.cpp
 ```
 
-## Licença
+To run the program after compilation:
 
-Este repositório está licenciado sob a **GPL-3.0**. Para mais detalhes, consulte o arquivo [`LICENSE`](LICENSE).
+```sh
+./lecture_3/exercise_1
+```
 
+## License
+
+This repository is licensed under **GPL-3.0**. For more details, see the [`LICENSE`](LICENSE) file.
