@@ -4,7 +4,6 @@
 
 #codly(languages: codly-languages)
 
-
 = Exercise 1
 == Solution
 === a)
