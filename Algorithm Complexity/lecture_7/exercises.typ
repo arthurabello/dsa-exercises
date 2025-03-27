@@ -245,3 +245,8 @@ void multiplicacaiMatriz(float **a, float **b, int n, int p, int m, float **x) {
 ```
 
 A multiplicação de matrizes de dimensões $n p$ por $p m$ realiza $n m p$ multiplicações. Logo, a complexidade é $O(n m p)$.
+
+= Exercise 4
+== Solution
+
+Currently empty. We encourage the reader (me lol) to do this as homework.
